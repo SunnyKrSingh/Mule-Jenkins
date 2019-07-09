@@ -49,9 +49,9 @@
                             <configuration>
                                 <artifactItems>
                                     <artifactItem>
-                                        <groupId>org.apache.maven.plugins</groupId>
-                                        <artifactId>maven-dependency-plugin</artifactId>
-                                        <version>1.0.0</version>
+									<groupId>org.apache.maven.plugins</groupId>
+									<artifactId>maven-deploy-plugin</artifactId>
+									<version>1.0.0</version>
                                         <type>zip</type>
                                         <overWrite>false</overWrite>
                                         <outputDirectory>D:/AnypointStudio/mule-standalone-3.9.0/apps</outputDirectory>
