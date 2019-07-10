@@ -74,7 +74,7 @@
 				<configuration>
 					<standaloneDeployment>
 						<muleVersion>3.9.0</muleVersion>
-						<muleHome>D:/AnypointStudio/mule-standalone-3.9.0/</muleHome>
+						<muleHome>D:/AnypointStudio/mule-standalone-3.9.0</muleHome>
 						<timeout>120000</timeout>
 						<deploymentTimeout>120000</deploymentTimeout>
 					</standaloneDeployment>
@@ -85,7 +85,7 @@
 
 
 
-	<plugin> <groupId>org.codehaus.mojo</groupId> <artifactId>properties-maven-plugin</artifactId> 
+	/*<plugin> <groupId>org.codehaus.mojo</groupId> <artifactId>properties-maven-plugin</artifactId> 
 				<version>1.0.0</version> <executions> <execution> <id>initialize-config</id> 
 				<phase>pre-clean</phase> <goals> <goal>read-project-properties</goal> </goals> 
 				<configuration> <files> <file>./mvnconfig/${env}/worker.properties</file> 
@@ -99,7 +99,7 @@
 				</properties> </configuration> <executions> <execution> <id>deploy</id> <phase>deploy</phase> 
 				<goals> <goal>deploy</goal> </goals> </execution> </executions> </plugin> 
 				 
-
+*/
 			<plugin> 
 				<groupId>org.apache.maven.plugins</groupId> 
 				<artifactId>maven-deploy-plugin</artifactId> 
