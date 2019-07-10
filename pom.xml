@@ -92,7 +92,7 @@
 				</files> </configuration> </execution> </executions> </plugin> <plugin> <groupId>org.mule.tools.maven</groupId> 
 				<artifactId>mule-maven-plugin</artifactId> <version>2.1.1</version> <configuration> 
 				<deploymentType>${deployment.type}</deploymentType> <muleVersion>${mule.version}</muleVersion> 
-				<username>amriteshand</username> <password>Sanni@123</password> <environment>Development</environment> 
+				<username>amriteshand</username> <password>Singh@123</password> <environment>Development</environment> 
 				<target>server</target> <region>${region}</region> <targetType>server</targetType> 
 				<redeploy>true</redeploy> <applicationName>${project.artifactId}-${env}</applicationName> 
 				<workerType>${worker.type}</workerType> <properties> <env>${env}</env> <encriptionkey>${sec.key}</encriptionkey> 
