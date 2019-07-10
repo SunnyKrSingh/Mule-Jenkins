@@ -63,17 +63,17 @@
 				<version>${mule.tools.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<copyToAppsDirectory>true</copyToAppsDirectory>
+					<copyToAppsDirectory>false</copyToAppsDirectory>
 				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>2.1.1</version>
+				<version>2.1</version>
 				<extensions>true</extensions>
 				<configuration>
 					<standaloneDeployment>
-						<muleVersion>3.9.0</muleVersion>
+						<muleVersion>${mule.version}</muleVersion>
 						<muleHome>D:/AnypointStudio/mule-standalone-3.9.0</muleHome>
 						<timeout>120000</timeout>
 						<deploymentTimeout>120000</deploymentTimeout>
